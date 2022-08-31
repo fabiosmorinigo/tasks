@@ -1,0 +1,144 @@
+.header {
+  max-width: 415px;
+  max-height: 385px;
+  margin: 0 auto;
+}
+.cover {
+  max-height: 409px;
+  max-width: 405px;
+  margin: 0 auto;
+}
+.social {
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+}
+.icon__social {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+.icon {
+  width: 25px;
+}
+.facebook {
+  filter: invert(32%) sepia(12%) saturate(2745%) hue-rotate(183deg) brightness(100%) contrast(89%);
+}
+.twitter {
+  filter: invert(58%) sepia(43%) saturate(5074%) hue-rotate(163deg) brightness(97%) contrast(101%);
+}
+.instagram {
+  filter: invert(62%) sepia(81%) saturate(2861%) hue-rotate(337deg) brightness(100%) contrast(95%);
+}
+.linkedin {
+  filter: invert(39%) sepia(21%) saturate(1599%) hue-rotate(155deg) brightness(98%) contrast(107%);
+}
+.github {
+  filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(104deg) brightness(104%) contrast(101%);
+}
+.portfolio {
+  filter: invert(76%) sepia(99%) saturate(1926%) hue-rotate(359deg) brightness(103%) contrast(104%);
+}
+
+
+.social--left {
+  position: absolute;
+  left: 10px;
+  top: 12%;
+}
+
+.icon__social--left {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media(min-width: 768px) {
+  .header {
+    height: auto;
+  }
+  .coverHeader {
+    max-width: 500px;
+    max-height: 500px;
+     margin: 0 auto;
+     display: block;
+  }
+  .cover {
+    width: 400px !important;
+    margin: 0 auto;
+    display: block;
+  }
+  .social {
+      bottom: 10px;
+      left: 10px;
+  }
+  .icon__social {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+  }
+  .icon {
+    width: 25px;
+  }
+  .facebook {
+    filter: invert(32%) sepia(12%) saturate(2745%) hue-rotate(183deg) brightness(100%) contrast(89%);
+  }
+  .twitter {
+    filter: invert(58%) sepia(43%) saturate(5074%) hue-rotate(163deg) brightness(97%) contrast(101%);
+  }
+  .instagram {
+    filter: invert(62%) sepia(81%) saturate(2861%) hue-rotate(337deg) brightness(100%) contrast(95%);
+  }
+  .linkedin {
+    filter: invert(39%) sepia(21%) saturate(1599%) hue-rotate(155deg) brightness(98%) contrast(107%);
+  }
+  .github {
+    filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(104deg) brightness(104%) contrast(101%);
+  }
+  .portfolio {
+    filter: invert(76%) sepia(99%) saturate(1926%) hue-rotate(359deg) brightness(103%) contrast(104%);
+  }
+}
+
+@media(min-width: 1024px) {
+  .header {
+    height: 70%;
+    max-height: 100%;
+    max-width: 70%;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 256px);
+  }
+  .social {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  .icon__social {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+  }
+  .icon {
+    width: 25px;
+  }
+  .facebook {
+    filter: invert(32%) sepia(12%) saturate(2745%) hue-rotate(183deg) brightness(100%) contrast(89%);
+  }
+  .twitter {
+    filter: invert(58%) sepia(43%) saturate(5074%) hue-rotate(163deg) brightness(97%) contrast(101%);
+  }
+  .instagram {
+    filter: invert(62%) sepia(81%) saturate(2861%) hue-rotate(337deg) brightness(100%) contrast(95%);
+  }
+  .linkedin {
+    filter: invert(39%) sepia(21%) saturate(1599%) hue-rotate(155deg) brightness(98%) contrast(107%);
+  }
+  .github {
+    filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(104deg) brightness(104%) contrast(101%);
+  }
+  .portfolio {
+    filter: invert(76%) sepia(99%) saturate(1926%) hue-rotate(359deg) brightness(103%) contrast(104%);
+  }
+}

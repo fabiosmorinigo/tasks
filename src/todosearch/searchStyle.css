@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .input {
+    width: 65% !important;
+    margin: 0 auto;
+    display: block;
+  }
+}

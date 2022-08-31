@@ -1,0 +1,52 @@
+.active {
+  text-decoration: line-through #000 1px;
+}
+.inactive {
+  text-decoration: none;
+  margin: 0;
+}
+.icon {
+  width: 32px;
+}
+li {
+  width: 100%;
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+p {
+  padding-left: 10px;
+  font-family: fantasy;
+  background-color: lightgray;
+  color: #000;
+  border-radius: 7px;
+  width: 300px;
+  min-width: 150px;
+  overflow-wrap: break-word;
+}
+.uncompleted {
+  filter: invert(0%) sepia(1%) saturate(4%) hue-rotate(320deg) brightness(96%) contrast(104%);
+}
+.completed {
+  filter: invert(48%) sepia(68%) saturate(1551%) hue-rotate(83deg) brightness(124%) contrast(119%);
+}
+.delete {
+  filter: invert(21%) sepia(94%) saturate(5645%) hue-rotate(355deg) brightness(102%) contrast(126%);
+}
+
+@media(min-width: 768px) {
+  p {
+    width: 80%;
+  }
+}
+
+@media(min-width: 1024px) {
+  p {
+    width: 90%;
+  }
+}

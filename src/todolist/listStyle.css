@@ -1,0 +1,93 @@
+.todoList {
+  max-height: 405px;
+  max-height: 287px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.todoListAdd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.todoList--absolute {
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+  background-image: url('../assets/img/todolist.png');
+  background-position: center;
+  margin-top: 70px;
+  min-height: 300px;
+}
+
+
+
+
+
+
+.todoList::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.todoList::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+
+.todoList::-webkit-scrollbar-button:increment,.todoList::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.todoList::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.todoList::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.todoList::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+
+@media(min-width: 768px) {
+  .todoList {
+    margin: 0 25px;
+  }
+}
+
+@media(min-width:1024px) {
+  .todoList {
+    width: 70%;
+    padding-left: 200px;
+    position: absolute;
+    top: calc(50% - 256px);
+    right: 0;
+    height: 70vh;
+  }
+  .todoList--absolute {
+    position: absolute;
+    right: 20px;
+    margin-top: 50px;
+    width: 40%;
+    background-image: url('../assets/img/todolist.png');
+    margin-top: 70px;
+    min-height: 70%;
+  }
+}
+
+@media(min-width: 1400px) {
+  .todoList {
+    padding-left: 0;
+  }
+  .todoList--absolute {
+    width: 50%;
+  }
+
+}

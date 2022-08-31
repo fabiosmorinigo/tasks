@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  background-image: linear-gradient(to bottom, #800080, #6e116f, #5d175f, #4d1a4e, #3d1b3e, #341933, #2b1728, #22151f, #1c1118, #160c11, #0e0609, #000000);
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
+  padding: 5px;
+}
+#root > h2 {
+  font-weight: bolder;
+}
+::placeholder {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#root > div:nth-child(3) > input {
+  font-size: 18px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.createTodoTitle {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 7px;
+}
