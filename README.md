@@ -3,8 +3,6 @@
 
 Tasks es una web APP minimalista que permite registrar y llevar un seguimiento de
 tus lista de tareas.
-Esta APP te permite registrar, completar, guardar y eliminar las listas 
-que hayas registrado.
 
 
 
